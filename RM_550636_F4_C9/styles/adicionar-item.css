@@ -1,0 +1,28 @@
+.add-item-container {
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    min-height: 100px;
+    margin-top: 20px;
+}
+
+.container-transactions {
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    color: #3a3a3a
+}
+
+.add-item-box {
+    background-color: var(--light-green);
+
+}
+
+.form-check--custom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+}
